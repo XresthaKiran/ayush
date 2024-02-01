@@ -544,3 +544,10 @@ z-index: 1;
     font-family: 'lato';
 }
 
+@media (max-width: 767px){
+    .edu-box{left: 0;}
+    .edu-content .edu-cation:nth-child(even) .edu-box {right: 0;}
+    .edu-box::after{left: 0; text-align: start;}
+    .edu-line,.edu-box::before{display: none;}
+    .quote{font-size: 32px;}
+}
