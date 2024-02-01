@@ -26,6 +26,7 @@ li.nav-item {
     background-color: rgba(0, 0, 0, 0.6);
     z-index: -1;
 }
+.banner-logo img{width: 300px;}
 
 .banner-content {
     color: white;
