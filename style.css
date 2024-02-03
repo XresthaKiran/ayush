@@ -213,7 +213,6 @@ li.nav-item {
 
 .education{
     padding: 90px 0;
-   
     background-color: #76acd5;
 }
 
@@ -324,7 +323,7 @@ li.nav-item {
 .col-md-6:nth-child(1) .gallery-img {
     height: 390px;
     width: 390px;
-    background-image: url('ayush (4).jpg');
+    background-image: url('hack.jpg');
     padding: 35px;
     margin: 20px;
     background-position: top;
@@ -342,7 +341,7 @@ li.nav-item {
 .col-md-6:nth-child(3) .gallery-img {
     height: 390px;
     width: 390px;
-    background-image: url('ayush (3).jpg');
+    background-image: url('workshop1.png');
     padding: 35px;
     margin: 20px;
     background-position: 30% 5%;
@@ -351,7 +350,7 @@ li.nav-item {
 .col-md-6:nth-child(4) .gallery-img {
     height: 390px;
     width: 390px;
-    background-image: url('ayush (6).jpg');
+    background-image: url('hiking1.jpeg');
     padding: 35px;
     margin: 20px;
     background-position: 50% 5%;
