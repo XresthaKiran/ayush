@@ -255,12 +255,15 @@ li.nav-item {
 
 .edu-box::after {
     position: absolute;
-    content: '2017-2019';
+    content: '2004-2016';
     top: 0;
     right: 0;
     transform: translate(0, -100%);
 }
 
+.edu-content .edu-cation:nth-child(2) .edu-box::after{content: '2017-2018';}
+.edu-content .edu-cation:nth-child(3) .edu-box::after{content: '2019-2024';}
+.edu-content .edu-cation:nth-child(4) .edu-box::after{content: '2024';}
 .edu-content .edu-cation:nth-child(even) .edu-box {
     right: -53%;
     left: unset;
@@ -321,6 +324,7 @@ li.nav-item {
 /* ---gallery--- */
 
 .col-md-6:nth-child(1) .gallery-img {
+    background-size: cover;
     height: 390px;
     width: 390px;
     background-image: url('hack.jpg');
@@ -330,15 +334,17 @@ li.nav-item {
 }
 
 .col-md-6:nth-child(2) .gallery-img {
+    background-size: cover;
     height: 390px;
     width: 390px;
-    background-image: url('ayush (1).jpg');
+    background-image: url('work-experience.jpg');
     padding: 35px;
     margin: 20px;
     background-position: top;
 }
 
 .col-md-6:nth-child(3) .gallery-img {
+    background-size: cover;
     height: 390px;
     width: 390px;
     background-image: url('workshop1.png');
@@ -348,6 +354,7 @@ li.nav-item {
 }
 
 .col-md-6:nth-child(4) .gallery-img {
+    background-size:cover ;
     height: 390px;
     width: 390px;
     background-image: url('hiking1.jpeg');
